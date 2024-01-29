@@ -1,0 +1,25 @@
+Javascript intermedio
+Ejercicio 6: Generador de Planetas Fantásticos
+Instrucciones: Escribe una función que genere nombres y características
+únicas para planetas imaginarios. Combina elementos como colores, elementos químicos y fenómenos cósmicos para crear mundos asombrosos
+
+Pasos:
+1. Crear función generarPlanetasAleatorios()
+2. Dentro de esta construir arrays y guardarlos en variables del tipo const:
+	* nombres
+	* colores
+	* elementosQuimicos
+3. Crear Función para obtener elementos aleatorios de una lista, function obtenerElementosAleatorio(lista), esta función tomará como parametro lista los arrays:
+	*nombre
+	*colores
+	*elementosQuimicos
+y se calculará un tamaño de forma aleatoria, para este planeta imaginario.
+4. Definir un array en una variable del tipo const vacío, llamado planeta=[].
+5.Con un bucle del tipo for, va cargando las variables del tipo const, cuyos valores saldran de la ejecución de la función obtenerElementoAleatorio, cuyo parametro será, nombres(array), colores(array), elementosQuimicos(array) y tamaño calculado de forma aleatoria:
+	*nombre
+	*color
+	*elementoQuimicos
+	*tamaño
+6.Generamos los planetas aleatorios construyendo una variable del tipo const para almacenar los valores que surjan de la función generarPlanetasAleatorios()
+7.Con forEach() consologueo elemento por elemento del Array planeta[]
+
