@@ -1,0 +1,26 @@
+Javascript intermedio
+Ejercicio 5: Creador de Recetas Culinarias del Futuro:
+Instrucciones: Escribe una función que genere recetas culinarias futuristas
+combinando ingredientes inusuales y técnicas de cocina avanzadas. ¡Haz
+que la comida del futuro sea emocionante y deliciosa!
+
+Pasos:
+1. Crear función generarRecetaAleatoria()
+2. Dentro de esta construir arrays y guardarlos en variables del tipo const:
+	* vegetales
+	* aderezos
+3. Crear Función para obtener elementos aleatorios de una lista, function obtenerElementosAleatorios(lista, cantidad):
+	instrucción WHILE:se realiza mientras el tamaño del array elementosAleatorios sea inferior a cantidad
+	*elemento: será un calculo aleatorio con base a tamaño de lista
+	*PUSH: colocará elemento por elemento en el Array, mientras cumpla la condición del WHILE
+	*retorna elementosAleatorios
+
+4. Genera la receta aleatoria.
+	Se construyen dos array, con elementos surgidos de la función obtenerElementosAleatorios(lista, cantidad)
+	a) const vegetalesAleatorios: donde los parametros serán lista=vegetales y cantidad=5
+	b) const aderezosAleatorios: donde los parametros serán lista=aderezos y cantidad=5  
+	
+5.Construye el array receta, con los valores o elementos de los array vegetalesAleatorios y aderezosAleatorios.
+
+6.Genera la receta y muestra. Se almacena el resultado de la función generarRecetaAleatoria() en la const recetaAleatorio y se muestra esta variable.
+
